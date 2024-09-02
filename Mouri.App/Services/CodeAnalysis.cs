@@ -23,7 +23,7 @@ namespace Mouri.App.Services
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);          
              var response = await _httpClient.GetAsync(Constants.ApiURLGetCodeAnalysis);
             var responseContent = response.Content.ReadAsStringAsync().Result;
-            response.EnsureSuccessStatusCode();
+            _ = response.EnsureSuccessStatusCode();
             return responseContent;
         }
        
@@ -42,7 +42,7 @@ namespace Mouri.App.Services
                 content.Headers.ContentType = new MediaTypeHeaderValue(Constants.Jsonformater);               
                 var response = await _httpClient.PostAsync(Constants.apiURLPostCodeAnalyis, content);
                 var responseContent = response.Content.ReadAsStringAsync().Result;
-                response.EnsureSuccessStatusCode();
+                _ = response.EnsureSuccessStatusCode();
                 return responseContent;
             }
             catch (Exception ex)

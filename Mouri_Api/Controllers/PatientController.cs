@@ -19,7 +19,7 @@ namespace Mouri.Api.Controllers
         [HttpGet()]
         [Authorize]
         [Route("GetPatient/{id}")]
-        public async Task<Patient> Get(string id)
+        public async Task<Patient> GetPatient(string id)
         {
            
             return await  _patientRepository.GetPatient(id);
