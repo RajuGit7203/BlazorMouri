@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mouri.App", "Mouri.App.csproj", "{01392614-EDF2-40AE-A39B-B0821A731A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mouri_Api", "..\Mouri_Api\Mouri_Api.csproj", "{CA421754-B6A6-4146-B8D7-06F64F58935E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mouri.Shared", "..\Mouri.Shared\Mouri.Shared.csproj", "{D3BF99C5-F615-46C4-97A8-B28E877A1A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01392614-EDF2-40AE-A39B-B0821A731A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01392614-EDF2-40AE-A39B-B0821A731A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01392614-EDF2-40AE-A39B-B0821A731A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01392614-EDF2-40AE-A39B-B0821A731A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA421754-B6A6-4146-B8D7-06F64F58935E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA421754-B6A6-4146-B8D7-06F64F58935E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA421754-B6A6-4146-B8D7-06F64F58935E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA421754-B6A6-4146-B8D7-06F64F58935E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3BF99C5-F615-46C4-97A8-B28E877A1A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3BF99C5-F615-46C4-97A8-B28E877A1A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3BF99C5-F615-46C4-97A8-B28E877A1A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3BF99C5-F615-46C4-97A8-B28E877A1A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68080AD4-8A43-418B-9D8A-37A607BFF010}
+	EndGlobalSection
+EndGlobal
