@@ -14,7 +14,7 @@ namespace Mouri.Shared
         public const string ApiURLGetPatient= "api/Patient/GetPatient/";
         public const string ApiToken = "api/User/token";
         public const string InvalidUsers = "UserName or Password is incorrect";
-        public const string InvalidCodeAnalysis = "Invalid Answer for codeAnalysis: ";
+        public const string InvalidCodeAnalysis = "First codeAnalysis result is : ";
         public const string InvalidCodeAnalyisPart = "  Explaniation is for codeAnalysis is not emit bow-wow because " +
                 "the Dog class does not override the speak method from the Animal class ";
         public const string PostAsyncMessage = " :This is an additional functionlaity to achive two API's triggered Asynchronously same instance "
